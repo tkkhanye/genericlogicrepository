@@ -10,8 +10,8 @@ namespace Experiment.Models.DomainModels
     {
         public int ID { get; set; }
         public bool Active { get; set; }
-        public DateTime DateCaptured { get; set; }
-        public DateTime DateModified { get; set; }
+        //public DateTime DateCaptured { get; set; }
+        //public DateTime DateModified { get; set; }
         
     }
 }

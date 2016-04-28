@@ -9,7 +9,7 @@ namespace Experiment.Repository.Entities
 {
     public class ExperimentalContext : DbContext
     {
-        public ExperimentalContext() :   base("EmployeeDBContext")
+        public ExperimentalContext() :   base("ExperimentalDBContext")
         {
         }
         public DbSet<Employee> Employees { get; set; }

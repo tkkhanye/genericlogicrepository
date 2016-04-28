@@ -10,7 +10,9 @@ namespace Experiment.Models.DomainModels
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Email { get; set; }
         public DateTime DateStarted { get; set; }
         public int DepartmentID { get; set; }
+
     }
 }
